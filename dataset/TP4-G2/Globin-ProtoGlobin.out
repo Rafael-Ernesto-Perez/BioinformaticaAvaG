@@ -1,0 +1,91 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  globin_modelo.hmm
+# target sequence database:        salida.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       globin_msa  [M=119]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+  ------ inclusion threshold ------
+       0.02   13.3   0.1      0.042   12.2   0.1    1.6  1  tr|A0A258ABL1|A0A258ABL1_9BRAD  <unknown description>
+       0.02   13.3   0.1      0.042   12.2   0.1    1.6  1  tr|A0A258CWQ9|A0A258CWQ9_9BRAD  <unknown description>
+      0.021   13.2   0.1      0.045   12.1   0.1    1.6  1  tr|K9GYH5|K9GYH5_9PROT          <unknown description>
+      0.027   12.8   0.1      0.055   11.8   0.1    1.6  1  tr|A0A1B3NM41|A0A1B3NM41_9BRAD  <unknown description>
+
+
+Domain annotation for each sequence (and alignments):
+>> tr|A0A258ABL1|A0A258ABL1_9BRAD  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.1   4.3e-05     0.042       2      45 ..      38      77 ..      37     104 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 4.3e-05
+                      globin_msa  2 eilarlFkaypdtkklFkkfkglsaadlksspkfkahgkkvlaa 45
+                                    e++++ +  yp+t+++F+  k+ + a     ++  +h  ++ ++
+  tr|A0A258ABL1|A0A258ABL1_9BRAD 38 EAFYKQLRRYPETQRFFSSEKQIEGA----QQRQSSHWDRIAKG 77
+                                    899******************99999....55555555555544 PP
+
+>> tr|A0A258CWQ9|A0A258CWQ9_9BRAD  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.1   4.3e-05     0.042       2      45 ..      38      77 ..      37     104 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 4.3e-05
+                      globin_msa  2 eilarlFkaypdtkklFkkfkglsaadlksspkfkahgkkvlaa 45
+                                    e++++ +  yp+t+++F+  k+ + a     ++  +h  ++ ++
+  tr|A0A258CWQ9|A0A258CWQ9_9BRAD 38 EAFYKQLRRYPETQRFFSSEKQIEGA----QQRQSSHWDRIAKG 77
+                                    899******************99999....55555555555544 PP
+
+>> tr|K9GYH5|K9GYH5_9PROT  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.1   4.7e-05     0.045       2      91 ..      38     115 ..      37     146 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 4.7e-05
+              globin_msa   2 eilarlFkaypdtkklFkkfkglsaadlksspkfkahgkkvlaalgeaiknlddeealkaalkklaarHkerlgvdpanFkllgeal 88 
+                             ++++++ + +pd+ +lF   + ++          +++++k  +  + ++ + d       ++k +++ H+e+ gv+p+++    + +
+  tr|K9GYH5|K9GYH5_9PROT  38 DAFYAFVQSDPDMAQLFASDEAME---------RARQAQKCHWLDTLFAGKWDS--GYVDTVKRIGRAHVEH-GVTPDYYLAGYAFF 112
+                             7899999999*******9998654.........459999999998888888886..67889**********9.******86555554 PP
+
+              globin_msa  89 vkv 91 
+                             + +
+  tr|K9GYH5|K9GYH5_9PROT 113 MDA 115
+                             443 PP
+
+>> tr|A0A1B3NM41|A0A1B3NM41_9BRAD  <unknown description>
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.1   5.8e-05     0.055       2      44 ..      38      76 ..      37     104 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 5.8e-05
+                      globin_msa  2 eilarlFkaypdtkklFkkfkglsaadlksspkfkahgkkvla 44
+                                    e +++ +  yp+t+++F+  k+ + a     ++  +h  ++ +
+  tr|A0A1B3NM41|A0A1B3NM41_9BRAD 38 ETFYKQLRSYPETQRFFSSEKQIDGA----QQRQSSHWDRIAK 76
+                                    789999****************9999....5555555555544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (119 nodes)
+Target sequences:                       3833  (626148 residues searched)
+Passed MSV filter:                      1039  (0.271067); expected 76.7 (0.02)
+Passed bias filter:                      812  (0.211845); expected 76.7 (0.02)
+Passed Vit filter:                       103  (0.0268719); expected 3.8 (0.001)
+Passed Fwd filter:                         4  (0.00104357); expected 0.0 (1e-05)
+Initial search space (Z):               3833  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.01
+# Mc/sec: 5690.43
+//
+[ok]
